@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Dinâmica</title>
+</head>
+<body>
+    <div> <a href="index.html">&#x1F3E0</a> Aprendendo HTML e CSS</div>
+    <h1>Imagem Dinâmica</h1>
+    <p>As imagens de tamanho dinâmico são feitas a partir estrutura abaixo</p>
+    <pre>
+        <code>
+&lt;picture&gt;
+    &lt;source media="(max-width: 740px)" srcset="imagens/foto-p.png" type="image/png"&gt;
+    &lt;source media="(max-width: 1040px)" srcset="imagens/foto-m.png" type="image/png"&gt;
+    &lt;img src="imagens/foto-g.png" alt=""&gt;
+&lt;/picture&gt;
+        </code>
+    </pre>
+    <p>Veja comoa imagem abaixo se comporta ao alterarmos o tamnho da tela do navegador.</p>
+    <picture>
+        <source media="(max-width: 740px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1040px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="">
+    </picture>
+</body>
+</html>

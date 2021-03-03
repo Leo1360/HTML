@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+</head>
+<body>
+    <div> <a href="index.html">&#x1F3E0</a> Aprendendo HTML e CSS</div>
+    <h1>Audio</h1>
+    <p>Os audios podem ser inseridos nas paginas html por meio da tag <code>&lt;audio&gt;</code> seguindo a seguinte estrutura:</p>
+    <p>Código;</p>
+    <pre>
+<code>
+&lt;audio controls&gt;
+    &lt;source src="media/Sleep Away.mp3" type="audio/mpeg"&gt;
+    &lt;p&gt;Esse paragrafo aparece apenas se seu navegador não der suporte ao tipo de audio especificado, você pode fazer o download &lt;a href="media/Sleep Away.mp3"download type="audio/mpeg" &gt;clicando aqui&lt;/a&gt;.&lt;/p&gt;
+&lt;/audio&gt;
+</code>        
+    </pre>
+    <p>Note que é possivel colocar varios sources com diferentes formatos de audio.</p>
+    <p>Resultado:</p>
+    <audio controls>
+        <source src="media/Sleep Away.mp3" type="audio/mpeg">
+        <p>Esse paragrafo aparece apenas se seu navegador não der suporte ao tipo de audio especificado, você pode fazer o download <a href="media/Sleep Away.mp3"download type="audio/mpeg" >clicando aqui</a>.</p>
+    </audio>
+</body>
+</html>

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-bo
+}
+header{
+    background-color: #36B8D2;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    
+}
+h1{
+    background-color: darkgray;
+}
+.titulo{
+    font-size: 15pt;
+    border-bottom: 4px white;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 20px;
+    
+}
+.logo{
+
+    position: relative;
+}
+.tituloElogo{
+    height: 50px;
+    display: inline-flex;
+    padding-left: 3%;
+}
